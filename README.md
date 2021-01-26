@@ -1,4 +1,4 @@
-### GRPC_TEST
+### grpc_test
 
 ### this is a test project for grpc
 
