@@ -1,0 +1,18 @@
+syntax = "proto3";
+package pb;
+
+service Greeter {
+  // Sends a greeting
+  rpc GetValue (Person) returns (Adress) {}
+}
+
+message Person {
+  string name = 1;
+  int32 id = 2;  // Unique ID number for this person.
+  string email = 3;
+}
+
+// Our address book file is just one of these.
+message Adress {
+  string address = 4;
+}
